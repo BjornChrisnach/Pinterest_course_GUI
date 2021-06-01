@@ -12,7 +12,7 @@ class Window(QWidget):
     def create_ui(self):
         self.setWindowTitle("PyQt5 Combobox")
         self.setGeometry(100, 100, 600, 300)
-        self.setWindowIcon(QIcon("comboboxex/pyicon.png"))
+        self.setWindowIcon(QIcon("icons/pyicon.png"))
 
         self.create_combo()
 
